@@ -7,5 +7,5 @@ run in project repository:
   
 application will open at http://localhost:2080/
 
-**link to live demo on Heroku** 
+**link to live demo on Heroku**  
   https://reacttestbackend.herokuapp.com/
