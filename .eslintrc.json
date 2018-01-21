@@ -1,0 +1,12 @@
+{
+	"extends": "airbnb-base",
+	"plugins": ["react"],
+	"env": {
+		"browser": true,
+		"node": true,
+		"jasmine": true
+	},
+	"parserOptions": {
+		"ecmaFeatures": { "jsx": true, "modules": true }
+	}
+}

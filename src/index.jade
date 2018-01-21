@@ -1,0 +1,21 @@
+-
+	var jsLibs= {}
+	var cssLibs= {}
+
+html
+	head
+		if( jsLibs )
+			each lib,libName in jsLibs
+				script(src=lib)
+				//.
+					#{libName}
+		if( cssLibs )
+			each lib,libName in cssLibs
+				link(rel='stylesheet', href=lib)
+				//.
+					#{libName}
+		
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+	body
+		div#App
