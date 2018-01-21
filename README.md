@@ -1,4 +1,4 @@
-** deployment instructions and instructions on how to run the project locally 
+**deployment instructions and instructions on how to run the project locally 
 
 run in project repository:
   npm i -g yarn  
@@ -7,5 +7,5 @@ run in project repository:
   
 application will open at http://localhost:2080/
 
-** link to live demo on Heroku 
+**link to live demo on Heroku 
   https://reacttestbackend.herokuapp.com/
